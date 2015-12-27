@@ -13,6 +13,10 @@ namespace Test_Variant4_Task4
         {
             int n;
             int index = 0;
+            string value;
+            string anotherValue;
+            double arrayElement;
+            double analyzeElement;
 
             Console.Write("Введите размер массива: ");
             n = int.Parse(Console.ReadLine());
@@ -22,8 +26,12 @@ namespace Test_Variant4_Task4
 
             for (int i = 0; i < n; i++)
             {
-                Console.Write("Введите " + (i+1) + "й элемент: ");
-                double arrayElement = double.Parse(Console.ReadLine());
+                Console.Write("Введите " + (i+1) + "й элемент: (десятичные числа вводите, используя запятую) ");
+                value = Console.ReadLine();
+                if (Double.TryParse(value, out arrayElement))
+                    Console.WriteLine("'{0}' --> {1}", value, arrayElement);
+                else
+                    Console.WriteLine("Unable to parse '{0}'.", value);
                 newArray[i] = arrayElement;
             }
 
@@ -37,8 +45,13 @@ namespace Test_Variant4_Task4
             Console.ReadKey();
             Console.WriteLine();
 
-            Console.Write("Введите число для анализа его места в массиве: ");
-            double analyzeElement = double.Parse(Console.ReadLine());
+            Console.Write("Введите число для анализа его места в массиве: (десятичные числа вводите, используя запятую) ");
+            anotherValue = Console.ReadLine();
+            if (Double.TryParse(anotherValue, out analyzeElement))
+                Console.WriteLine("'{0}' --> {1}", anotherValue, analyzeElement);
+            else
+                Console.WriteLine("Unable to parse '{0}'.", anotherValue);
+            
 
             for (int i = 0; i < n; i++)
             {
