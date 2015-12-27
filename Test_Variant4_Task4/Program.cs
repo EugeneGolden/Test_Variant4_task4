@@ -8,6 +8,7 @@ namespace Test_Variant4_Task4
 {
     class Program
     {
+        //Для масиву, відсортованого за зростанням, вивести номер елемента, після якого потрібно вставити деяке число y.
         static void Main(string[] args)
         {
             int n;
