@@ -1,0 +1,6 @@
+c:\users\admin\documents\visual studio 2015\Projects\Test_Variant4_Task4\Test_Variant4_Task4\bin\Debug\Test_Variant4_Task4.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\Test_Variant4_Task4\Test_Variant4_Task4\bin\Debug\Test_Variant4_Task4.exe
+c:\users\admin\documents\visual studio 2015\Projects\Test_Variant4_Task4\Test_Variant4_Task4\bin\Debug\Test_Variant4_Task4.pdb
+c:\users\admin\documents\visual studio 2015\Projects\Test_Variant4_Task4\Test_Variant4_Task4\obj\Debug\Test_Variant4_Task4.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\Test_Variant4_Task4\Test_Variant4_Task4\obj\Debug\Test_Variant4_Task4.exe
+c:\users\admin\documents\visual studio 2015\Projects\Test_Variant4_Task4\Test_Variant4_Task4\obj\Debug\Test_Variant4_Task4.pdb
